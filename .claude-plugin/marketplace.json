@@ -1,0 +1,21 @@
+{
+  "name": "limpiar-ramas",
+  "description": "Borra worktrees y ramas ya integradas en main. Nunca toca staging ni trabajo sin mergear.",
+  "owner": {
+    "name": "Alore"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "limpiar-ramas",
+      "description": "Borra worktrees, ramas locales y remotas cuyo trabajo ya está en main. Nunca toca staging ni trabajo sin mergear.",
+      "source": "./",
+      "version": "1.0.0",
+      "skills": [
+        "./skills/limpiar-ramas"
+      ]
+    }
+  ]
+}
