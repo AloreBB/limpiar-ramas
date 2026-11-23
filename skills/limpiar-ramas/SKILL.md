@@ -1,6 +1,28 @@
 ---
 name: limpiar-ramas
 description: "Use when the user says 'limpiar', '/limpiar', 'limpiar ramas', 'limpia ramas', 'limpia worktrees' or asks to clean up git work that is already merged into main. Deletes worktrees, local branches and remote branches whose work is already in main. Never touches staging or unmerged work."
+summary: Delete git work already merged into main - worktrees, local and remote branches - without touching staging or unmerged work.
+version: 1.0.0
+author: AloreBB
+license: MIT
+tags:
+  - git
+  - branches
+  - worktrees
+  - cleanup
+  - claude-code
+  - developer-tools
+keywords:
+  - limpiar
+  - limpiar ramas
+  - delete merged branches
+  - git worktree remove
+  - clean up branches
+use_cases:
+  - Delete worktrees whose branch is already merged into main
+  - Delete local branches whose work is already in main
+  - Delete remote branches whose work is already in main
+  - Preview what would be deleted with --dry-run
 ---
 
 # limpiar ramas — borra lo que ya está en main
